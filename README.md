@@ -8,22 +8,32 @@
 
 Barebones structure for implementing a CAT naming test using shiny.
 
-To run, make sure these packages are installed on your local machine:
+The app has now been converted to a package! (barely)
+
+Now you can use it without worrying about package dependencies as the
+app gets a little more complex
+
+Install the package from github:
 
 ``` r
-# not run
-install.packages(c("here", "shiny", "tibble", "dplyr", "tidyr",
-                   "shinyWidgets", "keys", "DT", "shinyjs", "catR"))
+install.packages('devtools')
+devtools::install_github("rbcavanaugh/pnt")
 ```
 
-Then run the following:
+Then run as such:
 
 ``` r
-# not run
-shiny::runGitHub("rbcavanaugh/pnt")
+library(pnt)
+shinyPNT()
 ```
 
-Or clone the repository and run locally.
+You can still clone the repository and run it locally. After cloning the
+repository, open the Rproj file. Then run:
+
+``` r
+devtools::load_all()
+shinyPNT()
+```
 
 ## To do list
 
