@@ -57,6 +57,8 @@ shinyPNT()
 -   produce a results plot, norms, and any other information
 -   make a “report” that is downloadable
 -   ~~indicator that response has been logged~~
+-   create an option for full 175 test length (should order be
+    randomized?)
 
 ### Longer-term
 
