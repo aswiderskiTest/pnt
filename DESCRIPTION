@@ -26,6 +26,7 @@ Imports:
     DT,
     here,
     keys,
+    pkgload,
     shinyjs,
     shinyWidgets,
     tibble,

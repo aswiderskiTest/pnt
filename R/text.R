@@ -2,7 +2,7 @@
 
 pagetitle = "Computer-adaptive Philadelphia Naming Test"
 
-welcome = "Welcome to the R-Shiny implementation of the computer adaptive philadelphia naming test"
+welcome = "Getting Started:"
 
 intro1 = "Enter information below."
 
